@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Auth from './webapp/auth';
-import Home from './UI-Components/home';
+import Home from './UI-Components/Components/home';
 import { MyContextProvider } from './MyContext';
 
 const App = () => {
